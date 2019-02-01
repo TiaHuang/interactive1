@@ -8,6 +8,10 @@
 
 /* begin styles */
 
+p.a {
+  font: 15px avenir, sans-serif;
+}
+
 body {
   color: purple;
   background: yellow;
