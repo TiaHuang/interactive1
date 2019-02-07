@@ -7,12 +7,28 @@
 }
 
 /* begin styles */
-
-p.a {
-  font: 15px avenir, sans-serif;
-}
+h1 { color: #FFFFFF; }
 
 body {
-  color: purple;
-  background: yellow;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+
+  font-family: "avenir", sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #5D6D7E;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2;
 }
+
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
