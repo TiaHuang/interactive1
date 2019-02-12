@@ -1,0 +1,48 @@
+* {
+        margin: 0px; padding: 0px;
+}
+
+.canvas {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  background: black;
+}
+
+#rect-horizontal{
+  position:fixed;
+  width: 500px;
+  height: 50px;
+  left:-10px;
+  top:100px;
+  background: red;
+  border: 10px solid white;
+}
+#rect-vertical{  
+  position:fixed;
+  width: 50px;
+  height:300px;
+  top:-10px;
+  left:75px;
+  background: red;
+  border: 10px solid white;
+}
+
+
+.big-star{
+  position:relative;
+  color:white; 
+  font-size:10rem;
+  margin-left:30px;
+  float:left;
+}
+
+.small-star{
+  position:relative;
+  color:#fff31e; 
+  font-size:7em;
+  margin-left:-135px;
+  margin-top:35px;
+  float:left;
+}
+
