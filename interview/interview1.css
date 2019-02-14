@@ -1,7 +1,7 @@
 
 body {
-	background: #fff;
-	color #2e4053;
+	background: #eee;
+	color: #2e4053;
 	font-size: 16px;
 	text-align: left;
 }
@@ -10,7 +10,7 @@ body {
 
 
 #container {
-	max-width: 800px;
+	max-width: 600px;
 }
 
 img {
@@ -34,6 +34,7 @@ body {
 }
 
 h1 {
+	font-size:18em;
 	font-weight: bold;
 	line-height: 1em;
 	margin-bottom: 0.5em;
@@ -70,7 +71,7 @@ p {
 	position: fixed;
 	bottom: 2em;
 	right: 2em;
-	background: #eee;
+	background: #ddd;
 	color: #5d6d7e;
 	font-weight: black;
 	padding: 1em;
@@ -84,3 +85,9 @@ p {
 	list-style-type: none;
 }
 
+#img{
+	position: fixed;
+	top:2em;
+	right:2em;
+	padding:1em;
+}

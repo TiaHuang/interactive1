@@ -1,0 +1,116 @@
+#container {
+	max-width: 600px;
+	margin-left:5em;
+}
+
+img {
+	border-radius: 10px;
+	border: 5px solid #eee;
+	max-width: 100%;
+	position: relative;
+	width: 400px;
+  	height: 400px;
+  	top: 0px;
+  	left: 0px; 
+}
+
+/* type */
+
+h1 {
+	display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+#intro {
+	margin-left:5em;
+}
+
+body {
+	position: absolute;
+    margin-left: 2em;
+    padding-bottom: .7em;
+    font-family: 'q_serif',Georgia,Times,"Times New Roman","Hiragino Kaku Gothic Pro","Meiryo",serif;
+    font-size: 16px!important;
+    line-height: 1.75;
+}
+
+
+.image-cropper {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    float:left;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+
+}
+ul{
+	list-style: decimal;
+	display: block;
+    list-style-type: decimal;
+    margin: 1em;
+}
+
+li{
+	display: list-item;
+    text-align: -webkit-match-parent;
+}
+b {
+	display: block;
+	margin-bottom:0.5em;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+#toc a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#toc a:hover {
+	font-weight: black;
+	color: #2e4053;
+}
+
+/* table of contents */
+
+#toc {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	background: #b92b27;
+	color: #fff;
+	font-weight: black;
+	padding: 1em;
+	font-size: 1em;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#toc ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+#img{
+	position: fixed;
+	top:2em;
+	right:2em;
+	padding:1em;
+}
