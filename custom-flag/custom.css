@@ -9,7 +9,7 @@
   background: black;
   -webkit-animation-name: color_change1;  
   -webkit-animation-iteration-count: infinite;  
-  -webkit-animation-duration: 2s; 
+  -webkit-animation-duration: 8s; 
 }
 
 #rect-horizontal{
@@ -22,7 +22,7 @@
   border: 10px solid white;
   -webkit-animation-name: color_change2;  
   -webkit-animation-iteration-count: infinite;  
-  -webkit-animation-duration: 2s; 
+  -webkit-animation-duration: 8s; 
 }
 #rect-vertical{  
   position:fixed;
@@ -34,7 +34,7 @@
   border: 10px solid white;
   -webkit-animation-name: color_change2;  
   -webkit-animation-iteration-count: infinite;  
-  -webkit-animation-duration: 2s; 
+  -webkit-animation-duration: 8s; 
 }
 
 
@@ -44,35 +44,35 @@
   font-size:10rem;
   margin-left:30px;
   float:left;
-
+  transform-origin: center center;
 
   /*animation*/
-  -webkit-animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
+  -webkit-animation:spin 8s linear infinite;
+  -moz-animation:spin 8s linear infinite;
+  animation:spin 8s linear infinite;
 }
 
 .small-star{
   position:relative;
-  color:#fff31e; 
+  color:red; 
   font-size:7em;
   margin-left:-135px;
   margin-top:35px;
   float:left;
 
   /*animation*/
-  -webkit-animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
+  -webkit-animation:spin 8s linear infinite;
+  -moz-animation:spin 8s linear infinite;
+  animation:spin 8s linear infinite;
 }
 
 @-webkit-keyframes color_change1 {
     0%, 100% {background-color:black;}
-    50% {background-color:red;}
+    50% {background-color:#fff31e;}
 }
 
 @-webkit-keyframes color_change2 {
-    0%, 100% {background-color:red;}
+    0%, 100% {background-color:#fff31e;}
     50% {background-color:black;}
 }
 
