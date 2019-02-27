@@ -14,26 +14,9 @@ body {
     font-family: "Avenir","Helvetica", sans-serif;
     font-size: 24px;
 }
-#tablet{
-    display: inline;
-    color: black;
-    text-align: center;
-    font-family: "Avenir","Helvetica", sans-serif;
-    font-size: 18px;
-    background: beige;
-}
-#mobile{
-    display: inline;
-    color: black;
-    text-align: center;
-    font-family: "Avenir","Helvetica", sans-serif;
-    font-size: 12px;
-    background: beige;
-}
-#print {
-    display: none;
-    font-family: "Avenir","Helvetica", sans-serif;
-}
+#tablet,
+#mobile,
+#print,
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
