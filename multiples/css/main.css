@@ -1,20 +1,24 @@
 
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     box-sizing: border-box;
 }
 body {
-    background: black;
+    background: beige;
 }
 #desktop {
     display: inline;
-    color: beige;
+    color: black;
+    text-align: center;
+    font-family: "Avenir","Helvetica", sans-serif;
+    font-size: 24px;
 }
 #tablet,
 #mobile,
 #print {
     display: none;
+    font-family: "Helvetica", sans-serif;
 }
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
