@@ -14,11 +14,25 @@ body {
     font-family: "Avenir","Helvetica", sans-serif;
     font-size: 24px;
 }
-#tablet,
-#mobile,
+#tablet{
+    display: inline;
+    color: black;
+    text-align: center;
+    font-family: "Avenir","Helvetica", sans-serif;
+    font-size: 18px;
+    background: beige;
+}
+#mobile{
+    display: inline;
+    color: black;
+    text-align: center;
+    font-family: "Avenir","Helvetica", sans-serif;
+    font-size: 12px;
+    background: beige;
+}
 #print {
     display: none;
-    font-family: "Helvetica", sans-serif;
+    font-family: "Avenir","Helvetica", sans-serif;
 }
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
