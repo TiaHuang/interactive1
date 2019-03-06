@@ -1,0 +1,172 @@
+* {
+        margin: 0px; padding: 0px;
+}
+
+body {
+  background-color: black;
+  -webkit-animation-name: background-light;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-duration: 10s; 
+}
+
+#bg {
+  width: 100vw;
+  height:100vh;
+  background:black;
+}
+
+#eye1a {
+  position:fixed;
+  top: 40%;
+  left: 35%;
+  width: 200px;
+  height: 100px;
+  background: #fcfaed;
+  border-radius: 100px / 50px;
+  filter: drop-shadow(0px 0px 4px #a5a5a5);
+}
+
+#eye2a {
+  position:fixed;
+  top: 40%;
+  left: 55%;
+  width: 200px;
+  height: 100px;
+  background: #fcfaed;
+  border-radius: 100px / 50px;
+  filter: drop-shadow(0px 0px 4px #a5a5a5);
+}
+
+#eye1b {
+  position: fixed;
+  top: 40%;
+  left: 35%;
+  margin-left: 50px;
+  background: #604a3e;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#eye2b {
+  position: fixed;
+  top: 40%;
+  left: 55%;
+  margin-left: 50px;
+  background: #604a3e;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.pupil1 {
+  position: fixed;
+  top: 40%;
+  left: 35%;
+  margin-left: 60px;
+  margin-top:10px;
+  background: black;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 0px 4px #212121);
+  }
+
+.pupil2 {
+  position: fixed;
+  top: 40%;
+  left: 55%;
+  margin-left: 60px;
+  margin-top:10px;
+  background: black;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 0px 4px #212121);
+  }
+
+.pupil1:hover + .pupil2 {
+  -webkit-animation-name: scale;  
+  -webkit-animation-iteration-count: 1;  
+  -webkit-animation-duration: 10s; 
+}
+
+.pupil1:hover {
+  -webkit-animation-name: scale;  
+  -webkit-animation-iteration-count: 1;  
+  -webkit-animation-duration: 10s; 
+}
+
+.pupil2:hover + .pupil1 {
+  -webkit-animation-name: scale;  
+  -webkit-animation-iteration-count: 1;  
+  -webkit-animation-duration: 10s; 
+}
+
+.pupil2:hover {
+  -webkit-animation-name: scale;  
+  -webkit-animation-iteration-count: 1;  
+  -webkit-animation-duration: 10s; 
+}
+
+.pupil1:hover ~ #bg, .pupil2:hover ~ #bg {
+  background: white;
+}
+
+.pupil1:hover{
+  -webkit-animation-name: scale;  
+  -webkit-animation-iteration-count: 1;  
+  -webkit-animation-duration: 10s; 
+}
+
+.pupil2:hover{
+  -webkit-animation-name: scale;  
+  -webkit-animation-iteration-count: 1;  
+  -webkit-animation-duration: 10s; 
+}
+
+
+
+.highlight1 {
+  position: fixed;
+  top: 40%;
+  left: 35%;
+  margin-left: 110px;
+  margin-top: 20px;
+  background: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.highlight2 {
+  position: fixed;
+  top: 40%;
+  left: 55%;
+  margin-left: 110px;
+  margin-top: 20px;
+  background: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+@-webkit-keyframes background-light {
+    0%, 100% {background-color:black;}
+    50% {background-color:white;}
+}
+
+
+@-webkit-keyframes eyeballs {
+    0%, 100% {background-color:#dbd8c3;}
+    50% {background-color:#fcfaed;}
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+}
