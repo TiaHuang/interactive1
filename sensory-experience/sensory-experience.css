@@ -6,7 +6,7 @@ body {
   background-color: black;
   -webkit-animation-name: background-light;  
   -webkit-animation-iteration-count: infinite;  
-  -webkit-animation-duration: 10s; 
+  -webkit-animation-duration: 5s; 
 }
 
 #bg {
@@ -70,6 +70,8 @@ body {
   height: 80px;
   border-radius: 50%;
   filter: drop-shadow(0px 0px 4px #212121);
+
+   transition: all 5s ease;
   }
 
 .pupil2 {
@@ -83,47 +85,53 @@ body {
   height: 80px;
   border-radius: 50%;
   filter: drop-shadow(0px 0px 4px #212121);
-  }
+
+  transition: all 5s ease;
+}
+
+/*.pupil1:hover + .pupil2 {
+  -webkit-animation-name: scale;  
+  -webkit-animation-iteration-count: 1;  
+  -webkit-animation-duration: 5s; 
+}*/
+
 
 .pupil1:hover + .pupil2 {
+  transform: scale(0.8);
+}
+
+ .pupil2:hover + .pupil1 {
+ transform: scale(0.8);
+}
+/*.pupil2:hover + .pupil1 {
   -webkit-animation-name: scale;  
   -webkit-animation-iteration-count: 1;  
-  -webkit-animation-duration: 10s; 
-}
+  -webkit-animation-duration: 5s; 
+}*/
 
 .pupil1:hover {
-  -webkit-animation-name: scale;  
-  -webkit-animation-iteration-count: 1;  
-  -webkit-animation-duration: 10s; 
-}
-
-.pupil2:hover + .pupil1 {
-  -webkit-animation-name: scale;  
-  -webkit-animation-iteration-count: 1;  
-  -webkit-animation-duration: 10s; 
+ transform: scale(0.8);
 }
 
 .pupil2:hover {
-  -webkit-animation-name: scale;  
-  -webkit-animation-iteration-count: 1;  
-  -webkit-animation-duration: 10s; 
+ transform: scale(0.8);
 }
 
 .pupil1:hover ~ #bg, .pupil2:hover ~ #bg {
   background: white;
 }
 
-.pupil1:hover{
+/*.pupil1:hover{
   -webkit-animation-name: scale;  
   -webkit-animation-iteration-count: 1;  
-  -webkit-animation-duration: 10s; 
+  -webkit-animation-duration: 5s; 
 }
 
 .pupil2:hover{
   -webkit-animation-name: scale;  
   -webkit-animation-iteration-count: 1;  
-  -webkit-animation-duration: 10s; 
-}
+  -webkit-animation-duration: 5s;             
+}*/
 
 
 
