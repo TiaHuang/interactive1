@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Starr-Z</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="numbers.css" type="text/css" />
+</head>
+
+<body>
+	
+	<a href="index.html">
+
+<!-- mouse animation -->
+<div id="container">
+</div>
+
+<canvas id="space"></canvas>
+<div class="twinkling"></div>
+<div class="text-container">
+<!-- TEXT BEGIN -->
+
+<!-- letter 1 -->
+<div class="letter" id="1">
+
+	<!-- row 1 -->
+	<div class="quadrant-b-leftup"></div>
+	<div class="rectangle-right"></div>
+
+	<!-- row 2 -->
+	<div class="rectangle-left"></div>
+	<div class="rectangle-right"></div>
+
+	<!-- row 3 -->
+	<div class="quadrant-s-leftup"></div>
+	<div class="quadrant-s-rightup"></div>
+</div>
+
+<!-- letter 2 -->
+<div class="letter" id="2">
+
+	<!-- row 1 -->
+	<div class="leaf-rightdown"></div>
+	<div class="quadrant-b-rightup"></div>
+
+	<!-- row 2 -->
+	<div class="quadrant-b-leftup"></div>
+	<div class="quadrant-b-rightdown"></div>
+
+	<!-- row 3 -->
+	<div></div>
+	<div class="quadrant-b-rightup"></div>
+</div>
+
+<!-- letter 3 -->
+<div class="letter" id="3">
+
+	<!-- row 1 -->
+	<div class="quadrant-b-leftdown"></div>
+	<div class="semicircle-right"></div>
+
+	<!-- row 2 -->
+	<div class="quadrant-b-leftdown"></div>
+	<div class="quadrant-b-rightup"></div>
+
+	<!-- row 3 -->
+	<div class="leaf-rightup"></div>
+	<div class="leaf-leftup"></div>
+</div>
+
+<!-- letter 4 -->
+<div class="letter" id="4">
+
+	<!-- row 1 -->
+	<div class="quadrant-b-rightup"></div>
+	<div></div>
+
+	<!-- row 2 -->
+	<div class="quadrant-b-leftdown"></div>
+	<div></div>
+
+	<!-- row 3 -->
+	<div class="empty"></div>
+	<div></div>
+</div>
+
+<!-- letter 5 -->
+<div class="letter" id="5">
+
+	<!-- row 1 -->
+	<div></div>
+	<div class="leaf-leftup"></div>
+
+	<!-- row 2 -->
+	<div class="quadrant-b-leftdown"></div>
+	<div class="quadrant-b-rightup"></div>
+
+	<!-- row 3 -->
+	<div class="quadrant-b-leftdown"></div>
+	<div class="quadrant-b-rightdown"></div>
+</div>
+
+<!-- letter 6 -->
+<div class="letter" id="6">
+
+	<!-- row 1 -->
+	<div class="leaf-rightdown"></div>
+	<div class="empty"></div>
+
+	<!-- row 2 -->
+	<div class="quadrant-s-rightdown"></div>
+	<div class="leaf-leftdown"></div>
+
+	<!-- row 3 -->
+	<div class="leaf-rightup"></div>
+	<div class="leaf-leftup"></div>
+</div>
+
+<!-- letter 7 -->
+<div class="letter" id="7">
+
+	<!-- row 1 -->
+	<div class="quadrant-b-leftdown"></div>
+	<div class="quadrant-s-rightup"></div>
+
+	<!-- row 2 -->
+	<div class="empty"></div>
+	<div></div>
+
+	<!-- row 3 -->
+	<div class="empty"></div>
+	<div class="quadrant-b-rightdown"></div>
+</div>
+
+<!-- letter 8 -->
+<div class="letter" id="8">
+
+	<!-- row 1 -->
+	<div class="quadrant-b-leftdown"></div>
+	<div class="quadrant-b-rightdown"></div>
+
+	<!-- row 2 -->
+	<div class="leaf-rightdown"></div>
+	<div class="leaf-leftdown"></div>
+
+	<!-- row 3 -->
+	<div class="leaf-rightup"></div>
+	<div class="leaf-leftup"></div>
+</div>
+
+<!-- letter 9 -->
+<div class="letter" id="9">
+
+	<!-- row 1 -->
+	<div class="leaf-rightdown"></div>
+	<div class="leaf-leftdown"></div>
+
+	<!-- row 2 -->
+	<div class="leaf-rightup"></div>
+	<div class="quadrant-s-leftup"></div>
+
+	<!-- row 3 -->
+	<div class="leaf-rightup"></div>
+	<div class="leaf-leftup"></div>
+</div>
+
+<!-- letter 0 -->
+<div class="letter" id="0">
+
+	<!-- row 1 -->
+	<div class="leaf-rightdown"></div>
+	<div class="leaf-leftdown"></div>
+
+	<!-- row 2 -->
+	<div class="circle"></div>
+	<div class="circle"></div>
+
+	<!-- row 3 -->
+	<div class="leaf-rightup"></div>
+	<div class="leaf-leftup"></div>
+</div>
+
+<!-- letter , -->
+<div class="letter" id=",">
+
+	<!-- row 1 -->
+	<div class="empty"></div>
+	<div class="empty"></div>
+
+	<!-- row 2 -->
+	<div class="empty"></div>
+	<div class="empty"></div>
+
+	<!-- row 3 -->
+	<div class="waterdrop-leftdown"></div>
+	<div class="empty"></div>
+</div>
+
+
+<!-- letter . -->
+<div class="letter" id=".">
+
+	<!-- row 1 -->
+	<div class="empty"></div>
+	<div class="empty"></div>
+
+	<!-- row 2 -->
+	<div class="empty"></div>
+	<div class="empty"></div>
+
+	<!-- row 3 -->
+	<div class="circle"></div>
+	<div class="empty"></div>
+</div>
+
+
+<!-- letter ; -->
+<div class="letter" id=";">
+
+	<!-- row 1 -->
+	<div class="empty"></div>
+	<div class="empty"></div>
+
+	<!-- row 2 -->
+	<div class="circle"></div>
+	<div class="empty"></div>
+
+	<!-- row 3 -->
+	<div class="waterdrop-leftdown"></div>
+	<div class="empty"></div>
+</div>
+
+<!-- letter : -->
+<div class="letter" id=":">
+
+	<!-- row 1 -->
+	<div class="empty"></div>
+	<div class="empty"></div>
+
+	<!-- row 2 -->
+	<div class="circle"></div>
+	<div class="empty"></div>
+
+	<!-- row 3 -->
+	<div class="circle"></div>
+	<div class="empty"></div>
+</div>
+
+<!-- letter ? -->
+<div class="letter" id="?">
+
+	<!-- row 1 -->
+	<div class="leaf-rightdown"></div>
+	<div class="leaf-leftdown"></div>
+
+	<!-- row 2 -->
+	<div class="empty"></div>
+	<div class="leaf-leftup"></div>
+
+	<!-- row 3 -->
+	<div class="semicircle-small-left"></div>
+	<div class="semicircle-small-right"></div>
+</div>
+
+<!-- letter ! -->
+<div class="letter" id="!">
+
+	<!-- row 1 -->
+	<div></div>
+	<div class="empty"></div>
+
+	<!-- row 2 -->
+	<div class="semicircle-down"></div>
+	<div class="empty"></div>
+
+	<!-- row 3 -->
+	<div class="circle"></div>
+	<div class="empty"></div>
+</div>
+
+<!-- letter ' -->
+<div class="letter" id="'">
+
+	<!-- row 1 -->
+	<div class="waterdrop-leftdown"></div>
+	<div class="waterdrop-leftdown"></div>
+
+	<!-- row 2 -->
+	<div class="empty"></div>
+	<div class="empty"></div>
+
+	<!-- row 3 -->
+	<div class="empty"></div>
+	<div class="empty"></div>
+</div>
+
+<!-- letter '' -->
+<div class="letter" id="''">
+
+	<!-- row 1 -->
+	<div class="empty"></div>
+	<div class="waterdrop-leftdown"></div>
+
+	<!-- row 2 -->
+	<div class="empty"></div>
+	<div class="empty"></div>
+
+	<!-- row 3 -->
+	<div class="empty"></div>
+	<div class="empty"></div>
+</div>
+
+<!-- letter ( -->
+<div class="letter" id="(">
+
+	<!-- row 1 -->
+	<div class="empty"></div>
+	<div class="quadrant-b-leftup"></div>
+
+	<!-- row 2 -->
+	<div class="empty"></div>
+	<div></div>
+
+	<!-- row 3 -->
+	<div class="empty"></div>
+	<div class="quadrant-b-leftdown"></div>
+</div>
+
+
+<!-- letter ) -->
+<div class="letter" id=")">
+
+	<!-- row 1 -->
+	<div class="quadrant-b-rightup"></div>
+	<div class="empty"></div>
+
+	<!-- row 2 -->
+	<div></div>
+	<div class="empty"></div>
+
+	<!-- row 3 -->
+	<div class="quadrant-b-rightdown"></div>
+	<div class="empty"></div>
+</div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://rawgithub.com/soulwire/sketch.js/v1.0/js/sketch.min.js"></script>
+<script src="letter.js"></script>
+
+</body>
+
+</html>
