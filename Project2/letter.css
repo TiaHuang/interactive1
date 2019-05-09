@@ -37,6 +37,12 @@ canvas {
   	z-index: 1;
 }
 
+.bodyText{
+	font-family:Avenir;
+	font-size:1em;
+	line-height:1.5em;
+}
+
 .letter {
 	position: relative;
 	margin: 20px;
